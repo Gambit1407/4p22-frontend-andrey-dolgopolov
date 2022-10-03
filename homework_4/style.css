@@ -1,0 +1,131 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.header__img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url(./images/1645934180_15-kartinkin-net-p-kartinki-oblakov-35.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.header__maintext {
+    font-family:'Roboto';
+    font-style: 'medium';
+    font-size: 50px;
+    color: white;
+    text-shadow: crimson 0 0 15px;
+}
+.container {
+    display: flex;
+    position: relative;
+    left: 220px;
+    width: 1000px;
+    height: 900px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 25px;
+    column-gap: 25px;
+}
+.card {
+    display: flex;
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: lightskyblue;
+    border: 7px inset royalblue;
+    border-radius: 40px 0px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 50%;
+    border-radius: 33px 0px 0px 0px;
+}
+.img1 {
+    background: url(./images/154.jpg);
+    background-size: cover;
+}
+.img2 {
+    background: url(./images/86.jpg);
+    background-size: cover;
+}
+.img3 {
+    background: url(./images/il62m-6.jpg);
+    background-size: cover;
+}
+.img4 {
+    background: url(./images/42.jpg);
+    background-size: cover;
+}
+.img5 {
+    background: url(./images/214.jpg);
+    background-size: cover;
+}
+.img6 {
+    background: url(./images/76.jpeg);
+    background-size: cover;
+}
+.textfield {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding: 5px;
+}
+h3 {
+    font-family:'Roboto';
+    font-style: 'medium';
+    font-size: 25px;
+    color: white;
+    text-shadow: black 0 0 15px;
+}
+form {
+    padding: 5px;
+}
+button {
+    width: 150px;
+    height: 50px;
+    background-color: palevioletred;
+    border: 4px inset crimson;
+    border-radius: 15px;
+    font-family:'Roboto';
+    font-style: 'medium';
+    font-size: 16px;
+    color: white;
+    text-shadow: black 0 0 20px;
+}
+span {
+    color: black;
+}
+p {
+    font-family:'Roboto';
+    font-style: 'medium';
+    font-size: 15px;
+    color: mediumblue;
+
+}
+.footer__img {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 250px;
+    background: url(./images/Way_to_sky.jpg);
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+.footer__maintext {
+    font-family:'Roboto';
+    font-style: 'medium';
+    font-size: 50px;
+    color: white;
+    text-shadow: crimson 0 0 15px;
+}
