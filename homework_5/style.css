@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    position: relative;
+    width: 1440px;
+    height: 89px;
+    background: #590BFF;
+    align-items: center;
+    padding-left: 29px;
+}
+h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 63px;
+    color: #FFFFFF;
+
+}
+main {
+    display: block;
+    width: fit-content;
+    margin-left: 335px;
+    margin-top: 54px;
+}
+.container {
+    display: block;
+    width: 1008px;
+    min-height: fit-content;
+    flex-direction: column;
+
+}
+.common-div {
+    display: block;
+    width: 100%;
+    min-height: fit-content;
+
+}
+.links {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    gap: 12px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-decoration-line: underline;
+}
+.links a {
+    text-decoration: none;
+    outline: none;
+    color: #FF710B;
+}
+.usefull__links {
+    display: block;
+    position: fixed;
+    width: fit-content;
+    height: 451px;
+    border-right: 2px solid grey;
+    padding-right: 20px;
+    left: 25px;
+    top: 151px;
+    
+}
+h5 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
+h3 {
+    position: absolute;
+    top: 4px;
+    left: 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #FFFFFF;
+
+}
+.container .sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top:0;
+    height: 41px;
+    background: #590BFF;
+}
+.names {
+    display: block;
+    width: 100%;
+    height: fit-content;
+    padding: 13px 13px;
+}
+.container .second {
+    top: 2em;
+}
+.container .third {
+    top: 4em;
+}
+.container .fourth {
+    top: 6em;
+}
+.container .fifth {
+    top: 8em;
+}
+.container .sixth {
+    top: 10em;
+}
+.usefull__links h5 {
+    margin-bottom: 23px;
+}
+.names {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #000000;
+}
