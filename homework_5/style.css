@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-header {
+.header {
     display: flex;
     position: relative;
     width: 1440px;
@@ -12,7 +12,7 @@ header {
     align-items: center;
     padding-left: 29px;
 }
-h1 {
+.header__h1 {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -21,13 +21,13 @@ h1 {
     color: #FFFFFF;
 
 }
-main {
+.main {
     display: block;
     width: fit-content;
     margin-left: 335px;
     margin-top: 54px;
 }
-.container {
+.main__container {
     display: block;
     width: 1008px;
     min-height: fit-content;
@@ -40,7 +40,7 @@ main {
     min-height: fit-content;
 
 }
-.links {
+.main-usefull-links__links {
     display: flex;
     position: relative;
     flex-direction: column;
@@ -52,12 +52,12 @@ main {
     line-height: 28px;
     text-decoration-line: underline;
 }
-.links a {
+.main-usefull-links-links__orange {
     text-decoration: none;
     outline: none;
     color: #FF710B;
 }
-.usefull__links {
+.main__usefull-links {
     display: block;
     position: fixed;
     width: fit-content;
@@ -68,7 +68,7 @@ main {
     top: 151px;
     
 }
-h5 {
+.main-usefull-links__header-text {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -76,7 +76,7 @@ h5 {
     line-height: 33px;
     color: #000000;
 }
-h3 {
+.main-container-sticky__h3 {
     position: absolute;
     top: 4px;
     left: 13px;
@@ -88,38 +88,38 @@ h3 {
     color: #FFFFFF;
 
 }
-.container .sticky {
+.main__container .main-container__sticky {
     position: -webkit-sticky;
     position: sticky;
     top:0;
     height: 41px;
     background: #590BFF;
 }
-.names {
+.main-container__names {
     display: block;
     width: 100%;
     height: fit-content;
     padding: 13px 13px;
 }
-.container .second {
+.main__container .main-container__second{
     top: 2em;
 }
-.container .third {
+.main__container .main-container__third {
     top: 4em;
 }
-.container .fourth {
+.main__container .main-container__fourth {
     top: 6em;
 }
-.container .fifth {
+.main__container .main-container__fifth {
     top: 8em;
 }
-.container .sixth {
+.main__container .main-container__sixth {
     top: 10em;
 }
-.usefull__links h5 {
+.main__usefull-links .main-usefull-links__header-text {
     margin-bottom: 23px;
 }
-.names {
+.main-container__names {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
