@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница регистрации</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <div class="logo__img"></div>
+            <h1 class="logo__h1">PCS Frontend</h1>
+        </div>
+        <div class="links">
+            <a class="links__style" href="registration_page.html">Регистрация</a>
+            <a class="links__style" href="login_page.html">Вход</a>
+        </div>
+    </header>
+    <main class="main">
+        <form class="form-2">
+            <h1 class="form__header">Регистрация</h1>
+            <div class="form__input-container">
+                <div class="form__input first-input">
+                    <h2 class="form__header-label">
+                        <label for="email-input">Email</label>
+                    </h2>
+                    <input class="email-input" id="email-input" name="email" type="email" placeholder="Введите email">
+                </div>
+                <div class="form__input">
+                    <h2 class="form__header-label">
+                        <label for="password-input">Пароль</label>
+                    </h2>
+                    <input class="password-input" id="password-input" name="password" type="password"
+                        placeholder="Введите пароль">
+                </div>
+                <div class="form__input">
+                    <h2 class="form__header-label">
+                        <label for="password-confirmation">Пароль</label>
+                    </h2>
+                    <input class="password-input" id="password-confirmation" name="password-confirmation"
+                        type="password" placeholder="Подтвердите пароль">
+                </div>
+            </div>
+            <div class="form__checkbox">
+                <h2 class="form__header-label">Пол </h2>
+                <div class="form-checkbox__input">
+                    <input class="form-checkbox__radio" type="radio" id="man" name="gender">
+                    <label class="form-checkbox__gender-label" for="man">Мужчина</label>
+                </div>
+                <div class="form-checkbox__input">
+                    <input class="form-checkbox__radio" type="radio" id="woman" name="gender">
+                    <label class="form-checkbox__gender-label" for="woman">Женщина</label>
+                </div>
+            </div>
+            <div class="form__input">
+                <h2 class="form__header-label">
+                    <label for="textarea">О себе</label>
+                </h2>
+                <textarea class="text-area" name="textarea" id="textarea" cols="30" rows="10" placeholder="Расскажите о себе..."></textarea>
+            </div>
+            <div class="form-checkbox__two">
+                <input class="form-checkbox-two__checkbox" type="checkbox" name="check-box" id="check-box">
+                <label class="form-checkbox__gender-label" for="check-box">Я согласен получать обновления на почту</label>
+            </div>
+            <button class="button" type="submit">Регистрация</button>
+        </form>
+    </main>
+
+</body>
+
+</html>
